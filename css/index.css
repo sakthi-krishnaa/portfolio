@@ -1,0 +1,86 @@
+.top-container {
+  position: relative;
+  background-color: #a0cece;
+  padding-top: 100px;
+}
+
+body {
+  background-color: #a0cece;
+  margin: 0;
+  text-align: center;
+  font-family: "Merriweather", serif;
+}
+
+h1 {
+  margin-top: 0;
+  font-weight: 150;
+  font-size: 50px;
+  font-family: "Sacramento", sans-serif;
+}
+
+p {
+  font-family: "Montserrat", sans-serif;
+}
+
+h3 {
+  font-family: "Montserrat", sans-serif;
+}
+
+#bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+#top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.skill-container {
+  align-items: center;
+  justify-content: center;
+  margin-left: 15%;
+}
+
+.gap {
+  display: none;
+  margin: 5px;
+}
+
+.middle-container {}
+
+.buttom-container {}
+
+.project_img {
+  radius: 20px;
+  width: 80px;
+  height: auto;
+  padding: 10px;
+  transition: transform .2s;
+}
+
+.project_img:hover {
+  -ms-transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+}
+
+.zoom {
+  padding: 20px;
+  transition: transform .2s;
+}
+
+.zoom:hover {
+  -ms-transform: scale(1.5);
+  /* IE 9 */
+  -webkit-transform: scale(1.5);
+  /* Safari 3-8 */
+  transform: scale(1.5);
+}
+
+.profile {
+  border-radius: 106px;
+  pointer-events: none;
+}
