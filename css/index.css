@@ -38,11 +38,11 @@ h3 {
   top: 50px;
 }
 
-.skill-container {
+/* .skill-container {
   align-items: center;
   justify-content: center;
-  margin-left: 15%;
-}
+  margin-left: 15%; */
+/* } */
 
 .gap {
   display: none;
@@ -83,4 +83,7 @@ h3 {
 .profile {
   border-radius: 106px;
   pointer-events: none;
+}
+.skill-row{
+  align-items: center;
 }
