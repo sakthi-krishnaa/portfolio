@@ -89,3 +89,11 @@ h3 {
 .skill-row{
   align-items: center;
 }
+hr{
+  height: 0px;
+    width: 5%;
+    border-style: none;
+    border-top-style: dotted;
+    border-color: grey;
+    border-width: 5px;
+}
