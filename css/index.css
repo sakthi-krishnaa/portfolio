@@ -38,11 +38,11 @@ h3 {
   top: 50px;
 }
 
-/* .skill-container {
+ .skill-container {
+    display:flex;
   align-items: center;
   justify-content: center;
-  margin-left: 15%; */
-/* } */
+}
 
 .gap {
   display: none;
